@@ -1,0 +1,7 @@
+Hàm nhận vào 1 số và trả ra chuỗi ký tự la mã ứng với nó
+  - Tạo 1 map list bên trong có các phần tử là các cặp số tương ứng với ký tự la mã của nó và sắp xếp từ cao đến thấp 
+  - Khởi tạo biến result là chuỗi trống 
+  - Lặp qua từng phần tử trong map list 
+  - lặp tiếp và so sánh value ở vị trí i của nó với số đầu vào
+  - Nếu lớn hơn hoặc bằng thì số đầu vào trừ đi giá trị đáng so sánh đó rồi thêm result là ký tự symbol tương ứng với value
+  - Kết thúc vòng lặp trả ra reuslt 
