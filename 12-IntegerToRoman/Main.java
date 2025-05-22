@@ -33,6 +33,6 @@ class IntegerToRoman {
     IntegerToRoman sol = new IntegerToRoman();
     System.out.println(sol.integerToRoman(3749));
     System.out.println(sol.integerToRoman(58));
-    fmt.Println(intToRoman(1994));
+    System.out.println(sol.integerToRoman(1994));
   }
 }
