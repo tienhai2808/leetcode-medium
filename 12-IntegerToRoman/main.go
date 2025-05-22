@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func intToRoman(num int) string {
-	type RomanPair struct {
-		Value  int
-		Symbol string
-	}
+type RomanPair struct {
+	Value  int
+	Symbol string
+}
 
+func intToRoman(num int) string {
 	romanMap := []RomanPair{
 		{1000, "M"},
 		{900, "CM"},
